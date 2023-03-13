@@ -18,8 +18,9 @@ const commentRoutes = require("./routes/comments"),
     campgroundRoutes = require("./routes/campgrounds"),
     indexRoutes = require("./routes/index")
 
-var url = process.env.DATABASEURL || "mongodb://localhost:27017/yelp_camp_v12_deployed"
-mongoose.connect(url, { useNewUrlParser: true, useUnifiedTopology: true, useFindAndModify: false })
+// var url = process.env.DATABASEURL || "mongodb://localhost:27017/yelp_camp_v12_deployed"
+// mongoose.connect(url, { useNewUrlParser: true, useUnifiedTopology: true, useFindAndModify: false })
+mongoose.connect('mongodb+srv://blog:blog123@zcluster-zjjuo.mongodb.net/<dbname>?retryWrites=true&w=majority', { useNewUrlParser: true, useUnifiedTopology: true });
 
 
 app.use(bodyParser.urlencoded({ extended: true }));

@@ -1,6 +1,8 @@
 # YelpCamp
 Camping website where we can add our favourite places for camping and other user can comment also. (Required login)
 
+[Click here to visit the Camps](http://3.15.226.121:3000/)
+
 ## Technologies used
 * NodeJs
 * Express Js
@@ -10,7 +12,7 @@ Camping website where we can add our favourite places for camping and other user
 ## Installation
 - Clone the repo
 ```
-git clone https://github.com/m-zest/YelpCamp
+git clone https://github.com/afzalhussain555/YelpCamp
 ``` 
 - Install Dependencies
 ```

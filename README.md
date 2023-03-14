@@ -1,7 +1,7 @@
 # YelpCamp
 Camping website where we can add our favourite places for camping and other user can comment also. (Required login)
 
-[Click here to visit the Camps](http://3.15.226.121:3000/)
+[Click here to visit the Camps](http://18.119.115.235:3001/)
 
 ## Technologies used
 * NodeJs
